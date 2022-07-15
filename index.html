@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav__menu" id="nav-menu">
+            <ul class="link-group">
+                <li class="link active"><a href="#">Startseite</a></li>
+                <li class="link"><a href="#">Projekte</a></li>
+                <li class="link"><a href="#">Über mich</a></li>
+                <li class="link"><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+        <button hidden class="nav__toggle" id="nav-toggle" type="button"><span></span>
+    </nav>
+
+    <!-- home section -->
+
+    <section class="home-section active">
+        <div class="home-section__container">
+            <h1 class="hero-heading">hello, i am <br>Dayana</h1>
+            <h2 class="home-section__effect">
+            I am a
+            <span class="type"></span>
+            <span> </span>
+            </h2>
+            <img src="img/home.jpg" class="home-img" alt="">
+        </div>
+        <div class="section-skills">
+            <div class="section-skills__container">
+                <h2 class="section-skills__title">Ich kann Ihnen helfen...</h2>
+                <ul class="section-skills__list">
+                    <li class="section-skills__item">
+                        <img src="img/skills-search.svg" alt="skills-search">
+                        <div class="section-skills__heading">UX-Forschung</div>
+                        <p class="section-skills__text">
+                            besser zu verstehen,<br> was Ihre Kunden wollen und was <br> Ihr Unternehmen braucht.
+                        </p>
+                    </li>
+                    <li class="section-skills__item">
+                        <img src="img/skills-graphic.svg" alt="skills-graphic">
+                        <div class="section-skills__heading">UX Design</div>
+                        <p class="section-skills__text">
+                            bei der Erstellung der Informationsarchitektur, des Benutzerflusses und der Definition der optimalen Funktionalität für Ihr Produkt unterstützen.
+                        </p>
+                    </li>
+                    <li class="section-skills__item">
+                        <img src="img/skills-graphic-pen.svg" alt="skills-graphic-pen">
+                        <div class="section-skills__heading">Visual/UI Design</div>
+                        <p class="section-skills__text">
+                            mit der visuellen Sprache Ihres Produkts ein angenehmes Benutzererlebnis zu schaffen.
+                        </p>
+                    </li>
+                    <li class="section-skills__item">
+                        <img src="img/skills-heart.svg" alt="skills-heart">
+                        <div class="section-skills__heading">Development </div>
+                        <p class="section-skills__text">
+                            bei der Erstellung von Websites mit HTML, CSS und JavaScript.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section class="project-section">
+        <h1 class="project-heading">einige meiner Projekte</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/project-1.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Projekt 01</h1>
+                    <p class="project-info">
+                        Website einer Bäckerei mit Online-Bestellung und einer Liste der verfügbaren Backwaren und Brotsorten...
+                    </p>
+                    <form class="project-btn-grp" action="https://github.com/ddayana23/baeckerei" target="_blank">
+                        <button class="project-btn github" type="submit">github repo</button>
+                    </form>
+                    <form class="project-btn-grp" action="https://ddayana23.github.io/baeckerei/" target="_blank">
+                        <button class="project-btn live" type="submit">see live</button>
+                    </form>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-2.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Projekt 02</h1>
+                    <p class="project-info">
+                        Eine Microsite, die für einen Hersteller von Designerkleidung erstellt wurde, um die Aufmerksamkeit auf ein neues Modeprojekt zu lenken.
+                    </p>
+                    <form class="project-btn-grp" action="https://github.com/ddayana23/shop" target="_blank">
+                        <button class="project-btn github" type="submit">github repo</button>
+                    </form>
+                    <form class="project-btn-grp" action="https://ddayana23.github.io/shop/" target="_blank">
+                        <button class="project-btn live" type="submit">see live</button>
+                    </form>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-3.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Projekt 03</h1>
+                    <p class="project-info">
+                        Website für ein Möbelgeschäft mit Produktkategorien und Kundenrezensionen.  
+                    </p>
+                    <form class="project-btn-grp" action="https://github.com/ddayana23/Moubelgeschaeft" target="_blank">
+                        <button class="project-btn github" type="submit">github repo</button>
+                    </form>
+                    <form class="project-btn-grp" action="https://ddayana23.github.io/Moubelgeschaeft/" target="_blank">
+                        <button class="project-btn live" type="submit">see live</button>
+                    </form>
+                   
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-4.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Projekt 04</h1>
+                    <p class="project-info">
+                        Ein Medienportal für Programmierinteressierte und angehende Fachleute, das die neuesten aktuellen Nachrichten enthält. 
+                    </p>
+                    <form class="project-btn-grp" action="https://github.com/ddayana23/portal" target="_blank">
+                        <button class="project-btn github" type="submit">github repo</button>
+                    </form>
+                    <form class="project-btn-grp" action="https://ddayana23.github.io/portal/" target="_blank">
+                        <button class="project-btn live" type="submit">see live</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="img/home.jpg" class="about-img" alt="">
+                <form action="https://drive.google.com/file/d/1kP8chxFnCZNfaJXX1vR0olTeU2dPETTf/view?usp=sharing">
+                <button class="download-cv-btn" href>download cv</button>
+            </form>
+            </div>
+            <p class="about-info">
+                <strong>Über mich:</strong> <br> Erstellung von Websites von Grund auf, Erstellung von Unternehmens- und Geschäftswebsites. Neugestaltung der Website und Rebranding. <br> <br>
+
+<strong>Meine persönlichen Eigenschaften:</strong><br>
+Pünktlichkeit der Arbeit.<br>
+Verantwortung für Projekte.<br>
+Fähigkeit, im Team zu arbeiten.<br>
+Schnelligkeit bei der Ausführung der Aufgaben.<br>
+Individuelle Herangehensweise an jede Aufgabe.<br><br>
+                <strong>Meine wichtigsten Fähigkeiten im Webdesign:</strong> <br>
+- Gestaltung einer Webseite (Landing Page).<br>
+- Gestaltung von Websites und einzelnen Webseiten von Grund auf oder auf der Grundlage eines bestehenden Prototyps.<br>
+- Erstellung verschiedener zusätzlicher grafischer Webelemente für Websites (Banner, Schaltflächen, Icons, Formulare, Karten usw.).<br>
+            </p>
+        </div>
+
+        <!-- skills -->
+        <div class="skill-section">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="img/html.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/css.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/js.png" class="skill-img" alt="">
+                    <div class="skill-level">73%</div>
+                    <h1 class="skill-name">JS</h1>
+                    <p class="skill-info"> Grundkenntnisse in JavaScript und jQuery</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/nodejs.png" class="skill-img" alt="">
+                    <div class="skill-level">67%</div>
+                    <h1 class="skill-name">Node.js</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- timeline -->
+        <div class="timeline">
+            <h1 class="heading">education and experience</h1>
+            <div class="card card-one">
+                <div class="card-body">
+                    <h1 class="card-title">2015-2021</h1>
+                    <p class="card-detail"> 
+                        <strong>Bachelorstudium Fernseh- und Hörfunkjournalismus</strong> <br> <br>
+                        (Russische Staatliche Universität für Geistwissenschaften<br>
+                        Moskau, Russland)
+                        </p>
+                </div>
+            </div>
+            <div class="card card-two">
+                <div class="card-body">
+                    <h1 class="card-title">2017-2021</h1>
+                    <p class="card-detail"> <strong>Fremdsprachenkurse </strong><br>
+                        Nach dem Umzug nach Deutschland:<br><br>
+                        - Integrationskurse in VHS-Saarbrücken (Abschluss mit TELC-B1 Zertifikat);<br><br>
+                        - Deutschkurse an der Dialoge-Sprachschule in Lindau am Bodensee (Abschluss mit TELC-B2 Zertifikat);<br><br>
+                        - Privatunterricht Englisch zur Aufrechterhaltung des B2-Niveaus (aktuell)
+                    </p>
+                </div>
+            </div>
+            <div class="card card-three">
+                <div class="card-body">
+                    <h1 class="card-title">2021-2022</h1>
+                    <p class="card-detail"><strong>Zertifizierte Frontend Developer <br> (IT Proger, Moskau, Russland)</strong> <br><br>
+                        Mit JavaScript, JQuery, Bootstrap, Sass, Git, Vue JS, Gulp, Ajax</p>
+                </div>
+            </div>
+            <div class="card card-four">
+                <div class="card-body">
+                    <h1 class="card-title">2021-Jetzt</h1>
+                    <p class="card-detail"><strong>Spezialist für Computergrafik und Webdesign</strong> <br><br>
+                        (ITMO-Universuty St. Petersburg)    <br>
+                        Mit PHP, MySQL, UI/UX-Design, JavaScript, Adobe-InDesign, CoralDraw, Tilda, Figma 
+                         </p> <br><br> <br>
+                         <p class="card-detail"><strong>Selbstständiger</strong> <br>
+                            (Internetdienstleistungen Gewerbe) <br><br>
+                        </p>
+                </div>
+            </div>
+            <div class="card card-five">
+                <div class="card-body">
+                    <h1 class="card-title">2021-2022</h1>
+                    <p class="card-detail"><strong>Frontend WEB-Entwicklerin für UI/UX-Design mit Webmasters-zertifizierung <br> (WBS-Training, Mannheim)</strong> <br><br>
+                        Mit HTML5, CSS3, Adobe-Illustrator, Adobe-Photoshop, WordPress
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section">
+        <div class="email">
+            <p class="about-info contact-section__info">
+                Ich bin derzeit auf der Suche nach Möglichkeiten, mein Posteingang ist immer offen, ob für die Einstellung von mir oder nur zum Reden. <br>
+                Ich werde Ihre E-Mail beantworten!
+            </p>
+            <a class="btn" href="mailto:dayana.dairova23@gmail.com">Send</a>
+
+          
+
+
+        </div>
+        <!-- map -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166178.3588614257!2d8.53235781640625!3d49.39875239999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c1050eccdccd%3A0xefe6ea0044243ad7!2z0JPQtdC50LTQtdC70YzQsdC10YDQsw!5e0!3m2!1sru!2sde!4v1657013699838!5m2!1sru!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+    <script src="typed.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
